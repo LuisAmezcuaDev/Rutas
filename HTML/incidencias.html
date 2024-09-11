@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incidencias</title>
+
+    <!-- Archivos CDN -->
+    <!-- Archivos de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+     <!-- Archivo css editable -->
+     <link rel="stylesheet" href="../CSS/colores.css">
+
+     <style>
+      h1{
+        color: #ffffff;
+        font-size: 25px;
+        padding-right: 20px;
+      }
+     </style>
+</head>
+<body>
+
+      <!-- Menu de navegación -->
+      <header>
+        <nav data-bs-theme="dark" class="navbar navbar-expand-lg bg-body-tertiary" >
+            <div class="container-fluid">
+                <!-- Para el logo y que tenga un link para poder regresar a la pagina de inicio -->
+                <a class="navbar-brand" href="#">
+                    <img src="../IMG/Logo_RP.gif" alt="Bootstrap" width="50">
+                  </a>
+                  <h1>Rutas Pátzcuaro</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="rutas.html">Rutas</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="incidencias.html">Incidencias</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="negocios.html">Negocios</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Centros historicos</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ayuda</a>
+                  </li>
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Acerca de
+                    </a>
+    
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+    
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="¿A donde quieres ir?" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+    
+              </div>
+            </div>
+          </nav>
+        </header>
+
+    <main>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Reporte de unidad en mal estado
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body" style=" padding: 15px; border: solid;">
+                    <!-- Formulario -->
+                    <div class="mb-3">
+                      <h4>Unidad en mal estado</h4>
+                      <br>
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      </div>
+
+                      <select class="form-select mb-3" aria-label="Default select example">
+                        <option selected>Selecciona la ruta</option>
+                        <option value="1">Azul</option>
+                        <option value="2">Azul Celeste</option>
+                        <option value="3">Gris</option>
+                        <option value="4">Roja</option>
+                        <option value="5">Naranja</option>
+                        <option value="6">Morada</option>
+                        <option value="7">Amarilla</option>
+                      </select>
+
+                      <div class="mb-3">
+                        <label for="Descripcion" class="form-label">Descripcion del reporte</label>
+                        <textarea class="form-control" id="Descripcion" rows="5" placeholder="Explica la situacion"></textarea>
+                            <!-- Botón -->
+                        <div class="d-grid gap-2 col-2 mx-auto">
+                            <button class="btn btn-primary" type="button" style="margin-top: 20px;">Realizar reporte</button>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Reporte de perdida de objeto
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              
+                <div class="accordion-body" style=" padding: 15px; border: solid;">
+                  <!-- Formulario -->
+                  <div class="mb-3">
+                    <h4>Perdida de objeto</h4>
+                    <br>
+                      <label for="email" class="form-label">Correo electrónico</label>
+                      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+
+                    <select class="form-select mb-3" aria-label="Default select example">
+                      <option selected>Selecciona la ruta</option>
+                      <option value="1">Azul</option>
+                      <option value="2">Azul Celeste</option>
+                      <option value="3">Gris</option>
+                      <option value="4">Roja</option>
+                      <option value="5">Naranja</option>
+                      <option value="6">Morada</option>
+                      <option value="7">Amarilla</option>
+                    </select>
+
+                    <div class="mb-3">
+                      <label for="Descripcion" class="form-label">Descripcion del reporte</label>
+                      <textarea class="form-control" id="Descripcion" rows="5" placeholder="Explica la situacion"></textarea>
+                          <!-- Botón -->
+                      <div class="d-grid gap-2 col-2 mx-auto">
+                          <button class="btn btn-primary" type="button" style="margin-top: 20px;">Realizar reporte</button>
+                      </div>
+                    </div>
+              </div>
+
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Reporte de Acoso
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                
+
+                <div class="accordion-body" style=" padding: 15px; border: solid;">
+                  <!-- Formulario -->
+                  <h4>Reporte de acoso</h4>
+                    <br>
+                <div class="row">
+
+
+                  <div class="form-floating mb-3 col-md-6">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label for="emial">Correo electrónico</label>
+                  </div>
+                  <div class="form-floating mb-3 col-md-6">
+                    <input type="text" class="form-control" id="name" placeholder="Nombre completo">
+                    <label for="emial">Nombre completo</label>
+                  </div>
+
+                    <select class="form-select mb-3" aria-label="Default select example">
+                      <option selected>Selecciona la ruta</option>
+                      <option value="1">Azul</option>
+                      <option value="2">Azul Celeste</option>
+                      <option value="3">Gris</option>
+                      <option value="4">Roja</option>
+                      <option value="5">Naranja</option>
+                      <option value="6">Morada</option>
+                      <option value="7">Amarilla</option>
+                    </select>
+
+                    <div class="mb-3">
+                      <label for="Descripcion" class="form-label">Descripcion del reporte</label>
+                      <textarea class="form-control" id="Descripcion" rows="5" placeholder="Explica la situacion"></textarea>
+                          <!-- Botón -->
+                      <div class="d-grid gap-2 col-2 mx-auto">
+                          <button class="btn btn-primary" type="button" style="margin-top: 20px;">Realizar reporte</button>
+                      </div>
+                    </div>
+  
+
+                </div>
+                 
+              </div>
+              </div>
+            </div>
+          </div>
+    </main>
+</body>
+</html>

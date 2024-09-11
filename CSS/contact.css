@@ -1,0 +1,14 @@
+
+#form{
+    padding: 15px;
+    background-color: gray;
+    color: white;
+}
+
+footer, h2{
+    background-color: #2B2F31;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}

@@ -1,0 +1,150 @@
+
+<!-- Contenido de las rutas -->
+<main>
+  <div id="rutas" class="row">
+    <div class="col-sm-4">
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Ruta azul 1</h5>
+          <img src="../IMG/combis/azul.png" class="card-img-top img-fluid" alt="Ruta azul">
+          <p class="card-text">Tarifa minima: 10 MXN</p>
+          <a href="rutaAzul.html" class="btn btn-light">Ver ruta</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card text-white bg-primary mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Ruta azul 2</h5>
+          <img src="../IMG/combis/azul.png" class="card-img-top img-fluid" alt="Ruta azul">
+          <p class="card-text">Tarifas: </p>
+          <a href="#" class="btn btn-light">Ver ruta</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+        <div class="card text-white bg-secondary mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Ruta gris 1</h5>
+            <img src="../IMG/combis/gris.png" class="card-img-top img-fluid" alt="Ruta gris">
+            <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+            <a href="rutaGris.html" class="btn btn-light">Ver ruta</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card text-white bg-secondary mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Ruta gris</h5>
+            <img src="../IMG/combis/gris.png" class="card-img-top img-fluid" alt="Ruta gris">
+            <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+            <a href="#" class="btn btn-light">Ver ruta</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-white bg-info mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Ruta azul cielo</h5>
+            <img src="../IMG/combis/azul cielo.png" class="card-img-top img-fluid" alt="Ruta azul cielo">
+            <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+            <a href="rutaAzulC.html" class="btn btn-light">Ver ruta</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+          <div class="card text-white bg-info mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Ruta azul cielo</h5>
+              <img src="../IMG/combis/azul cielo.png" class="card-img-top img-fluid" alt="Ruta azul cielo">
+              <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+              <a href="#" class="btn btn-light">Ver ruta</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card text-white bg-warning mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Ruta amarilla</h5>
+                <img src="../IMG/combis/amarilla.png" class="card-img-top img-fluid" alt="Ruta amarilla">
+                <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+                <a href="rutaAmaarilla.html" class="btn btn-light">Ver ruta</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card text-white bg-warning mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Ruta amarilla</h5>
+                <img src="../IMG/combis/amarilla.png" class="card-img-top img-fluid" alt="Ruta amarilla">
+                <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+                <a href="#" class="btn btn-light">Ver ruta</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="card text-white bg-danger mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Ruta Roja</h5>
+                  <img src="../IMG/combis/roja.png" class="card-img-top img-fluid" alt="Ruta roja">
+                  <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+                  <a href="rutaRoja.html" class="btn btn-light">Ver ruta</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card text-white bg-danger mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Ruta roja</h5>
+                    <img src="../IMG/combis/roja.png" class="card-img-top img-fluid" alt="Ruta roja">
+                    <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+                    <a href="#" class="btn btn-light">Ver ruta</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card text-white bg-morado mb-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Ruta morada</h5>
+                    <img src="../IMG/combis/morada.png" class="card-img-top img-fluid" alt="Ruta morada">
+                    <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+                    <a href="rutaMorada.html" class="btn btn-light">Ver ruta</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="card text-white bg-morado mb-3">
+                    <div class="card-body">
+                      <h5 class="card-title">Ruta morada</h5>
+                      <img src="../IMG/combis/morada.png" class="card-img-top img-fluid" alt="Ruta morada">
+                      <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+                      <a href="#" class="btn btn-light">Ver ruta</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card text-white bg-naranja mb-3">
+                      <div class="card-body">
+                        <h5 class="card-title">Ruta naranja</h5>
+                        <img src="../IMG/combis/naranja.png" class="card-img-top img-fluid" alt="Ruta naranja">
+                        <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+                        <a href="rutaNaranja.html" class="btn btn-light">Ver ruta</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                      <div class="card text-white bg-naranja mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Ruta naranja</h5>
+                          <img src="../IMG/combis/naranja.png" class="card-img-top img-fluid" alt="Ruta naranja">
+                          <p class="card-text">Con texto de apoyo a continuación como introducción natural a contenido adicional.</p>
+                          <a href="#" class="btn btn-light">Ver ruta</a>
+                        </div>
+                      </div>
+                    </div>
+    </div>
